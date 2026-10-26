@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Jayapreetha Jayaraman --- Portfolio
 
 A responsive personal portfolio website for showcasing my profile,
@@ -75,3 +76,7 @@ npm run dev
 
 Use these commands only if the repository's package.json defines the
 corresponding scripts.
+=======
+# Portfolio_jayapreetha
+A fully responsive personal portfolio showcasing my skills in Full Stack Development, Java, UI/UX Design, Web Development, and 3D Design. Built with a modern design, interactive project showcases, and an EmailJS-powered contact form.
+>>>>>>> 5987a0c76b222f0d47ad40e16b6ed9833ba8e64c
