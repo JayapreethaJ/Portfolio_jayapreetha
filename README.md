@@ -1,6 +1,6 @@
-<<<<<<< HEAD
-Jayapreetha Jayaraman --- Portfolio
 
+Jayapreetha Jayaraman --- Portfolio
+My site is live at https://jayapreethaj.github.io/Portfolio_jayapreetha/
 A responsive personal portfolio website for showcasing my profile,
 skills, projects, professional experience, and contact information.
 
@@ -74,9 +74,3 @@ commands for an npm-based project:
 npm install
 npm run dev
 
-Use these commands only if the repository's package.json defines the
-corresponding scripts.
-=======
-# Portfolio_jayapreetha
-A fully responsive personal portfolio showcasing my skills in Full Stack Development, Java, UI/UX Design, Web Development, and 3D Design. Built with a modern design, interactive project showcases, and an EmailJS-powered contact form.
->>>>>>> 5987a0c76b222f0d47ad40e16b6ed9833ba8e64c
