@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jayapreetha Jayaraman — Full Stack Developer &amp; 3D Designer</title>
+  <meta name="description" content="Building user-focused digital experiences through web development, UI/UX design, and creative 3D visualization. Personal portfolio of Jayapreetha Jayaraman." />
+  
+  <!-- OpenGraph Social Metadata -->
+  <meta property="og:title" content="Jayapreetha Jayaraman — Full Stack Developer &amp; 3D Designer" />
+  <meta property="og:description" content="Building user-focused digital experiences through web development, UI/UX design, and creative 3D visualization." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Google Fonts: Playfair Display & Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap 5.3.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+  <!-- Bootstrap Icons 1.11.3 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+  <!-- Custom Stylesheets -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="100" tabindex="0">
+
+  <!-- Top Scroll Progress Indicator -->
+  <div id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- ==========================================================================
+       1. STICKY NAVBAR
+       ========================================================================== -->
+  <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-custom" aria-label="Main Navigation">
+    <div class="container">
+      <!-- Brand Logo -->
+      <a class="brand-logo" href="#home">
+        Jayapreetha J<span class="dot">.</span>
+      </a>
+
+      <!-- Mobile Hamburger Toggler -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list"></i>
+      </button>
+
+      <!-- Navigation Links -->
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#resume">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item nav-cta-item ms-lg-3">
+            <a class="btn-custom btn-primary-custom" href="#contact">
+              Get in Touch <i class="bi bi-arrow-right"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==========================================================================
+       2. HERO SECTION
+       ========================================================================== -->
+  <section id="home" class="hero-section">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        
+        <!-- Hero Content (Left) -->
+        <div class="col-lg-7 text-lg-start text-center">
+          <div class="reveal-init reveal-fade-down">
+            <div class="hero-subtitle">
+              PORTFOLIO · JAYAPREETHA JAYARAMAN
+            </div>
+            <h1 class="hero-title">
+              Full Stack Developer &amp; 3D Designer
+            </h1>
+            
+            <!-- Dynamic Typing Animation -->
+            <div class="hero-typing-wrapper">
+              <span id="typing-text">Full Stack Developer</span>
+              <span class="typing-cursor">|</span>
+            </div>
+
+            <p class="hero-description">
+              Building user-focused digital experiences through web development, UI/UX design, and creative 3D visualization.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="Jayapreetha_Jayaraman_Resume.pdf" download="Jayapreetha_Jayaraman_Resume.pdf" class="btn-custom btn-primary-custom btn-download-resume">
+                <i class="bi bi-download"></i> Download CV
+              </a>
+              <a href="#projects" class="btn-custom btn-outline-custom">
+                <i class="bi bi-grid-fill"></i> View Projects
+              </a>
+            </div>
+
+            <!-- Open To / Open to Work status badge -->
+            <div class="availability-badge">
+              <span class="pulse-dot"></span> Open to UI/UX Design, Web Development &amp; 3D Design Opportunities
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Showcase (Right) -->
+        <div class="col-lg-5 text-center">
+          <div class="hero-image-wrapper reveal-init reveal-zoom-in delay-200">
+            <!-- Background glow shape -->
+            <div class="hero-blob-bg"></div>
+
+            <!-- Main Portrait Frame -->
+            <div class="hero-image-frame">
+              <img src="images/myprofile.png" alt="Jayapreetha Jayaraman" onerror="this.onerror=null; this.src='images/myprofile.jpeg';" />
+            </div>
+
+
+            <!-- Direct Contact Floating Card (Shifted downward and leftward, zero overlap with Open To badge) -->
+            <div class="hero-contact-card">
+              <div class="contact-card-title">
+                <i class="bi bi-person-lines-fill"></i> Direct Contact
+              </div>
+              <ul class="contact-card-list">
+                <li><i class="bi bi-geo-alt-fill text-muted"></i> Puducherry, India</li>
+                <li><i class="bi bi-envelope-fill text-muted"></i> <a href="mailto:jayaraman4preetha@gmail.com">jayaraman4preetha@gmail.com</a></li>
+                <li><i class="bi bi-telephone-fill text-muted"></i> <a href="tel:+919360271358">+91-9360271358</a></li>
+                <li><i class="bi bi-github text-muted"></i> <a href="https://github.com/JayapreethaJ" target="_blank" rel="noopener noreferrer">github.com/JayapreethaJ</a></li>
+                <li><i class="bi bi-linkedin text-muted"></i> <a href="https://www.linkedin.com/in/jayapreetha-jayaraman" target="_blank" rel="noopener noreferrer">linkedin.com/in/jayapreetha-jayaraman</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       3. ABOUT SECTION
+       ========================================================================== -->
+  <section id="about" class="about-section section-padding">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        
+        <!-- About Left Visual -->
+        <div class="col-lg-5">
+          <div class="about-image-wrapper reveal-init reveal-slide-left">
+            <div class="about-accent-frame"></div>
+            <div class="about-image-frame">
+              <img src="images/myprofile.png" alt="Jayapreetha Jayaraman" onerror="this.onerror=null; this.src='images/myprofile.jpeg';" />
+            </div>
+          </div>
+        </div>
+
+        <!-- About Right Content -->
+        <div class="col-lg-7">
+          <div class="reveal-init reveal-slide-right">
+            <span class="section-tag">About Me</span>
+            <h2 class="section-title">
+              Analytical Engineering Foundation With Digital Design Passion
+            </h2>
+            <p>
+              I am a Full Stack Developer and 3D Designer with a B.Tech degree in Chemical Engineering from Puducherry Technological University (2019–2023, CGPA 8.46). My background bridges engineering analysis, modern web development, UI/UX design, and 3D product visualization using Blender.
+            </p>
+            <p>
+              Having worked as a Relationship Manager at TenMind Global IT Solutions (March 2026 – October 2026), I coordinated client relationships, outreach, and administrative operations. Previously, as an Assistant Quality &amp; Production Executive at Hindustan Unilever Limited, I applied structured problem-solving and cross-functional quality control to production workflows.
+            </p>
+            <p>
+              My creative and technical work encompasses building responsive web applications using HTML5, CSS3, JavaScript, and Bootstrap, creating intuitive Figma wireframes and interactive prototypes, and modeling realistic 3D product visualizations with dedicated lighting and material texturing.
+            </p>
+
+            <!-- Personal Information Cards -->
+            <div class="about-info-grid">
+              <div class="about-info-item">
+                <div class="label">Degree</div>
+                <div class="value">B.Tech Chemical Eng.</div>
+              </div>
+              <div class="about-info-item">
+                <div class="label">University</div>
+                <div class="value">Puducherry Tech. Univ.</div>
+              </div>
+              <div class="about-info-item">
+                <div class="label">CGPA</div>
+                <div class="value">8.46 / 10</div>
+              </div>
+              <div class="about-info-item">
+                <div class="label">Location</div>
+                <div class="value">Puducherry, India</div>
+              </div>
+              <div class="about-info-item">
+                <div class="label">Email</div>
+                <div class="value"><a href="mailto:jayaraman4preetha@gmail.com" class="text-dark">jayaraman4preetha@gmail.com</a></div>
+              </div>
+              <div class="about-info-item">
+                <div class="label">Phone</div>
+                <div class="value"><a href="tel:+919360271358" class="text-dark">+91-9360271358</a></div>
+              </div>
+            </div>
+
+            <!-- Resume Action CTA -->
+            <div class="mt-4">
+              <a href="Jayapreetha_Jayaraman_Resume.pdf" download="Jayapreetha_Jayaraman_Resume.pdf" class="btn-custom btn-primary-custom btn-download-resume">
+                <i class="bi bi-file-earmark-pdf"></i> Download Resume
+              </a>
+              <a href="#contact" class="btn-custom btn-outline-custom ms-3">
+                <i class="bi bi-chat-text"></i> Contact Me
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       4. EDUCATION & 5. EXPERIENCE (RESUME SECTION)
+       ========================================================================== -->
+  <section id="resume" class="timeline-section section-padding">
+    <div class="container">
+      
+      <!-- Section Header -->
+      <div class="text-center">
+        <span class="section-tag">Experience &amp; Education</span>
+        <h2 class="section-title">Academic Background &amp; Professional Career</h2>
+        <p class="section-subtitle">
+          Verified academic milestones and industry experience across industrial operations, quality control, and client relationship management.
+        </p>
+      </div>
+
+      <div class="row g-5 mt-2">
+        
+        <!-- Education Column (Preserving Degree) -->
+        <div class="col-lg-6">
+          <div class="d-flex align-items-center gap-3 mb-4 reveal-init reveal-fade-down">
+            <i class="bi bi-mortarboard-fill fs-2 text-warning"></i>
+            <h3 class="mb-0">Academic Education</h3>
+          </div>
+
+          <div class="timeline-wrapper">
+            <!-- Education Item 1: College -->
+            <div class="timeline-item reveal-init reveal-fade-up">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card">
+                <span class="timeline-year">2019 — 2023</span>
+                <h4 class="timeline-title">B.Tech — Chemical Engineering</h4>
+                <div class="timeline-institution">
+                  <i class="bi bi-geo-alt"></i> Puducherry Technological University · CGPA: 8.46 / 10
+                </div>
+                <p class="mb-0">
+                  Comprehensive chemical engineering studies focusing on industrial process optimization, chemical thermodynamics, analytical problem-solving, and computational methods.
+                </p>
+              </div>
+            </div>
+
+            <!-- Education Item 2: School -->
+            <div class="timeline-item reveal-init reveal-fade-up delay-100">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card">
+                <span class="timeline-year">2018 — 2019</span>
+                <h4 class="timeline-title">Higher Secondary Certificate (HSLC)</h4>
+                <div class="timeline-institution">
+                  <i class="bi bi-geo-alt"></i> Amalorpavam Higher Secondary School · Score: 75.3%
+                </div>
+                <p class="mb-0">
+                  Completed higher secondary education with a rigorous academic foundation in sciences and mathematics.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience Column -->
+        <div class="col-lg-6">
+          <div class="d-flex align-items-center gap-3 mb-4 reveal-init reveal-fade-down">
+            <i class="bi bi-briefcase-fill fs-2 text-warning"></i>
+            <h3 class="mb-0">Professional Experience</h3>
+          </div>
+
+          <div class="d-flex flex-column gap-4">
+            <!-- Experience Card 1: TenMind -->
+            <div class="experience-card reveal-init reveal-fade-up">
+              <div class="experience-header">
+                <div>
+                  <h4 class="experience-role">Relationship Manager</h4>
+                  <div class="experience-company">TenMind Global IT Solutions</div>
+                </div>
+                <span class="experience-badge">March 2026 – October 2026</span>
+              </div>
+              <ul class="mb-0 ps-3 text-muted">
+                <li class="mb-2">Manage client relationships, business communications, and outreach to support smooth service delivery and client satisfaction.</li>
+                <li>Handle client inquiries, relationship-building coordination, and administrative operations for IT and BPO projects.</li>
+              </ul>
+            </div>
+
+            <!-- Experience Card 2: HUL -->
+            <div class="experience-card reveal-init reveal-fade-up delay-100">
+              <div class="experience-header">
+                <div>
+                  <h4 class="experience-role">Assistant Quality &amp; Production Executive</h4>
+                  <div class="experience-company">Hindustan Unilever Limited</div>
+                </div>
+                <span class="experience-badge">January 2024 — January 2025</span>
+              </div>
+              <ul class="mb-0 ps-3 text-muted">
+                <li class="mb-2">Applied analytical and problem-solving skills to industrial processes and workflows.</li>
+                <li class="mb-2">Collaborated with cross-functional teams to improve production efficiency and quality control.</li>
+                <li>Analyzed technical documentation and data to support process improvement and decision-making.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       6. SKILLS SECTION (CLEAN BADGES - NO FAKE PERCENTAGES)
+       ========================================================================== -->
+  <section id="skills" class="skills-section section-padding">
+    <div class="container">
+      
+      <!-- Section Header -->
+      <div class="text-center">
+        <span class="section-tag">Skills &amp; Competencies</span>
+        <h2 class="section-title">Technical, Design &amp; Professional Skills</h2>
+        <p class="section-subtitle">
+          A verified skill set combining modern web development, UI/UX design tools, 3D visualization, and client operations.
+        </p>
+      </div>
+
+      <!-- Skills Cards Grid -->
+      <div class="row g-4 mb-5">
+        
+        <!-- Category 1: Web Development -->
+        <div class="col-lg-6">
+          <div class="skill-card-modern reveal-init reveal-fade-up">
+            <h5>
+              <i class="bi bi-code-slash text-warning"></i> Frontend &amp; Web Development
+            </h5>
+            <div class="skill-badge-wrapper">
+              <span class="skill-badge-pill"><i class="bi bi-filetype-html"></i> HTML5</span>
+              <span class="skill-badge-pill"><i class="bi bi-filetype-css"></i> CSS3</span>
+              <span class="skill-badge-pill"><i class="bi bi-filetype-js"></i> JavaScript</span>
+              <span class="skill-badge-pill"><i class="bi bi-cup-hot"></i> Java</span>
+              <span class="skill-badge-pill"><i class="bi bi-bootstrap"></i> Bootstrap 5</span>
+              <span class="skill-badge-pill"><i class="bi bi-layout-text-window"></i> Responsive Web Layouts</span>
+              <span class="skill-badge-pill"><i class="bi bi-database"></i> Local Storage</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 2: UI/UX Design -->
+        <div class="col-lg-6">
+          <div class="skill-card-modern reveal-init reveal-fade-up delay-100">
+            <h5>
+              <i class="bi bi-palette2 text-warning"></i> UI/UX Design &amp; Prototyping
+            </h5>
+            <div class="skill-badge-wrapper">
+              <span class="skill-badge-pill"><i class="bi bi-vector-pen"></i> Figma</span>
+              <span class="skill-badge-pill"><i class="bi bi-grid-1x2"></i> Wireframing</span>
+              <span class="skill-badge-pill"><i class="bi bi-cursor-fill"></i> Interactive Prototyping</span>
+              <span class="skill-badge-pill"><i class="bi bi-window"></i> UI Layouts</span>
+              <span class="skill-badge-pill"><i class="bi bi-ui-radios-grid"></i> User-Centered Design</span>
+              <span class="skill-badge-pill"><i class="bi bi-brush"></i> Design Consistency</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 3: 3D Product Visualization -->
+        <div class="col-lg-6">
+          <div class="skill-card-modern reveal-init reveal-fade-up delay-200">
+            <h5>
+              <i class="bi bi-box text-warning"></i> 3D Modeling &amp; Product Visualization
+            </h5>
+            <div class="skill-badge-wrapper">
+              <span class="skill-badge-pill"><i class="bi bi-boxes"></i> Blender</span>
+              <span class="skill-badge-pill"><i class="bi bi-bounding-box"></i> 3D Modeling</span>
+              <span class="skill-badge-pill"><i class="bi bi-paint-bucket"></i> Texturing</span>
+              <span class="skill-badge-pill"><i class="bi bi-camera"></i> Rendering</span>
+              <span class="skill-badge-pill"><i class="bi bi-lightbulb"></i> Scene Lighting</span>
+              <span class="skill-badge-pill"><i class="bi bi-display"></i> Product Visualization</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 4: Tools & Professional Operations -->
+        <div class="col-lg-6">
+          <div class="skill-card-modern reveal-init reveal-fade-up delay-300">
+            <h5>
+              <i class="bi bi-tools text-warning"></i> Tools &amp; Professional Management
+            </h5>
+            <div class="skill-badge-wrapper">
+              <span class="skill-badge-pill"><i class="bi bi-code-square"></i> Visual Studio Code</span>
+              <span class="skill-badge-pill"><i class="bi bi-git"></i> Git</span>
+              <span class="skill-badge-pill"><i class="bi bi-github"></i> GitHub</span>
+              <span class="skill-badge-pill"><i class="bi bi-people-fill"></i> Client Relationship Management</span>
+              <span class="skill-badge-pill"><i class="bi bi-gear-wide-connected"></i> Process Management</span>
+              <span class="skill-badge-pill"><i class="bi bi-shield-check"></i> Quality Control</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Professional Strengths Grid Cards -->
+      <div class="pt-4">
+        <h4 class="text-center mb-4">Core Professional Strengths</h4>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="soft-skill-card reveal-init reveal-fade-up">
+              <div class="icon-box">
+                <i class="bi bi-people"></i>
+              </div>
+              <h5>Client Relations</h5>
+              <p>Effective business communication, proactive stakeholder handling, and smooth delivery support.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="soft-skill-card reveal-init reveal-fade-up delay-100">
+              <div class="icon-box">
+                <i class="bi bi-patch-check"></i>
+              </div>
+              <h5>Quality Control</h5>
+              <p>Analytical problem-solving and systematic workflow monitoring developed in industrial manufacturing.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="soft-skill-card reveal-init reveal-fade-up delay-200">
+              <div class="icon-box">
+                <i class="bi bi-lightbulb"></i>
+              </div>
+              <h5>Creative Visualization</h5>
+              <p>Translating real-world products and digital concepts into engaging 3D assets and intuitive interfaces.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       8. SERVICES SECTION
+       ========================================================================== -->
+  <section id="services" class="services-section section-padding">
+    <div class="container">
+      
+      <!-- Section Header -->
+      <div class="text-center">
+        <span class="section-tag">Services</span>
+        <h2 class="section-title">Core Areas of Competence</h2>
+        <p class="section-subtitle">
+          Combining technical engineering precision with creative interface design, 3D visualization, and client-facing communication.
+        </p>
+      </div>
+
+      <div class="row g-4 mt-2">
+        <!-- Service 1: UI/UX Design -->
+        <div class="col-lg-3 col-md-6">
+          <div class="service-card reveal-init reveal-fade-up">
+            <div class="service-icon-wrapper">
+              <i class="bi bi-palette"></i>
+            </div>
+            <h4 class="service-title">UI/UX Design</h4>
+            <p class="service-desc">
+              Designing user-friendly wireframes, intuitive layout flows, and interactive prototypes in Figma for web and mobile products.
+            </p>
+            <ul class="service-features">
+              <li><i class="bi bi-check2"></i> Figma Prototyping</li>
+              <li><i class="bi bi-check2"></i> Wireframing &amp; Layouts</li>
+              <li><i class="bi bi-check2"></i> User Journey Mapping</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Service 2: Web Development -->
+        <div class="col-lg-3 col-md-6">
+          <div class="service-card reveal-init reveal-fade-up delay-100">
+            <div class="service-icon-wrapper">
+              <i class="bi bi-code-square"></i>
+            </div>
+            <h4 class="service-title">Web Development</h4>
+            <p class="service-desc">
+              Building accessible, responsive web interfaces using semantic HTML5, modern CSS3 styling, JavaScript logic, and Bootstrap.
+            </p>
+            <ul class="service-features">
+              <li><i class="bi bi-check2"></i> HTML5 &amp; CSS3 Layouts</li>
+              <li><i class="bi bi-check2"></i> Bootstrap Responsive Grid</li>
+              <li><i class="bi bi-check2"></i> Client-Side JavaScript</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Service 3: 3D Product Visualization -->
+        <div class="col-lg-3 col-md-6">
+          <div class="service-card reveal-init reveal-fade-up delay-200">
+            <div class="service-icon-wrapper">
+              <i class="bi bi-box-seam"></i>
+            </div>
+            <h4 class="service-title">3D Visualization</h4>
+            <p class="service-desc">
+              Crafting detailed 3D models and product visualizations in Blender with meticulous texturing, lighting, and realistic rendering.
+            </p>
+            <ul class="service-features">
+              <li><i class="bi bi-check2"></i> 3D Product Modeling</li>
+              <li><i class="bi bi-check2"></i> Material Texturing</li>
+              <li><i class="bi bi-check2"></i> Photorealistic Lighting</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Service 4: Client & Quality Operations -->
+        <div class="col-lg-3 col-md-6">
+          <div class="service-card reveal-init reveal-fade-up delay-300">
+            <div class="service-icon-wrapper">
+              <i class="bi bi-shield-check"></i>
+            </div>
+            <h4 class="service-title">Quality &amp; Client Relations</h4>
+            <p class="service-desc">
+              Managing client communications, project coordination, workflow efficiency, and analytical quality control across operations.
+            </p>
+            <ul class="service-features">
+              <li><i class="bi bi-check2"></i> Client Relationship Care</li>
+              <li><i class="bi bi-check2"></i> Workflow Optimization</li>
+              <li><i class="bi bi-check2"></i> Quality Assurance Focus</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       9. PORTFOLIO SECTION (4 VERIFIED RESUME PROJECTS - RICH VISUALS)
+       ========================================================================== -->
+  <section id="projects" class="portfolio-section section-padding">
+    <div class="container">
+      
+      <!-- Section Header -->
+      <div class="text-center">
+        <span class="section-tag">Featured Works</span>
+        <h2 class="section-title">Verified Portfolio Projects</h2>
+        <p class="section-subtitle">
+          Explore projects in 3D modeling and product visualization, UI/UX concept design, and interactive web development.
+        </p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="filter-button-group reveal-init reveal-fade-down">
+        <button type="button" class="filter-btn active" data-filter="all">All</button>
+        <button type="button" class="filter-btn" data-filter="3d">3D Visualization</button>
+        <button type="button" class="filter-btn" data-filter="uiux">UI/UX Design</button>
+        <button type="button" class="filter-btn" data-filter="web">Web Development</button>
+      </div>
+
+      <!-- Portfolio Gallery Grid (4 Projects) -->
+      <div class="row g-4 justify-content-center" id="portfolioGallery">
+        
+        <!-- Project 1: 3D Product Visualization -->
+        <div class="col-lg-6 col-md-6 portfolio-item" data-category="3d">
+          <div class="portfolio-card reveal-init reveal-fade-up" data-project-id="1">
+            <div class="portfolio-image-wrapper">
+              <img src="images/project1.jpg" alt="3D Product Visualization &amp; Modeling - Blender" />
+              <div class="portfolio-overlay">
+                <span class="portfolio-category-tag">Blender · October 2026</span>
+                <h4 class="portfolio-item-title">3D Product Visualization &amp; Modeling</h4>
+                <div class="portfolio-action-btn" title="View Project Details">
+                  <i class="bi bi-eye-fill"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Music Website UI Design -->
+        <div class="col-lg-6 col-md-6 portfolio-item" data-category="uiux">
+          <div class="portfolio-card reveal-init reveal-fade-up delay-100" data-project-id="2">
+            <div class="portfolio-image-wrapper">
+              <img src="images/project2.jpg" alt="Music Website UI Design - Figma" />
+              <div class="portfolio-overlay">
+                <span class="portfolio-category-tag">Figma · July 2025</span>
+                <h4 class="portfolio-item-title">Music Website UI Design</h4>
+                <div class="portfolio-action-btn" title="View Project Details">
+                  <i class="bi bi-eye-fill"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Kids Toys E-Commerce -->
+        <div class="col-lg-6 col-md-6 portfolio-item" data-category="uiux">
+          <div class="portfolio-card reveal-init reveal-fade-up" data-project-id="3">
+            <div class="portfolio-image-wrapper">
+              <img src="images/project3.jpg" alt="Kids Toys E-Commerce Website - Figma" />
+              <div class="portfolio-overlay">
+                <span class="portfolio-category-tag">Figma · May 2025</span>
+                <h4 class="portfolio-item-title">Kids Toys E-Commerce Website</h4>
+                <div class="portfolio-action-btn" title="View Project Details">
+                  <i class="bi bi-eye-fill"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: Interactive To-Do List -->
+        <div class="col-lg-6 col-md-6 portfolio-item" data-category="web">
+          <div class="portfolio-card reveal-init reveal-fade-up delay-100" data-project-id="4">
+            <div class="portfolio-image-wrapper">
+              <img src="images/project4.jpg" alt="Interactive To-Do List - HTML/CSS/JS" />
+              <div class="portfolio-overlay">
+                <span class="portfolio-category-tag">HTML/CSS/JS · August 2025</span>
+                <h4 class="portfolio-item-title">Interactive To-Do List</h4>
+                <div class="portfolio-action-btn" title="View Project Details">
+                  <i class="bi bi-eye-fill"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       10. CERTIFICATIONS & TRAINING SECTION
+       ========================================================================== -->
+  <section class="resume-section section-padding">
+    <div class="container">
+      
+      <div class="text-center">
+        <span class="section-tag">Credentials</span>
+        <h2 class="section-title">Certifications &amp; Training</h2>
+        <p class="section-subtitle">
+          Verified specialized diplomas and industry training credentials from the resume.
+        </p>
+      </div>
+
+      <div class="row g-4 mt-2 justify-content-center">
+        <!-- Certification 1: UI/UX Design -->
+        <div class="col-lg-4 col-md-6">
+          <div class="highlight-card reveal-init reveal-fade-up">
+            <div class="highlight-icon">
+              <i class="bi bi-palette2"></i>
+            </div>
+            <div class="highlight-content">
+              <h5>Diploma in UI/UX Design</h5>
+              <div class="issuer">Creotix Technologies</div>
+              <p>Focused training on user research, user journey mapping, design systems, and responsive Figma prototyping.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certification 2: Frontend Development (Preserving official credential title) -->
+        <div class="col-lg-4 col-md-6">
+          <div class="highlight-card reveal-init reveal-fade-up delay-100">
+            <div class="highlight-icon">
+              <i class="bi bi-code-square"></i>
+            </div>
+            <div class="highlight-content">
+              <h5>Diploma in Front-End Development</h5>
+              <div class="issuer">Ocean Academy</div>
+              <p>Practical training in semantic HTML5 markup, CSS3 styling, responsive Bootstrap layouts, and core JavaScript.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certification 3: Industrial Internship -->
+        <div class="col-lg-4 col-md-6">
+          <div class="highlight-card reveal-init reveal-fade-up delay-200">
+            <div class="highlight-icon">
+              <i class="bi bi-gear-wide-connected"></i>
+            </div>
+            <div class="highlight-content">
+              <h5>Internship Training</h5>
+              <div class="issuer">Industrial Process Optimization &amp; Quality Control</div>
+              <p>Practical immersion in industrial chemical process workflows, quality control verification, and operational documentation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       11. STATISTICS SECTION (ANIMATED COUNTERS)
+       ========================================================================== -->
+  <section class="stats-section section-padding">
+    <div class="container position-relative">
+      <div class="row g-4">
+        
+        <!-- Stat 1 -->
+        <div class="col-lg-3 col-6">
+          <div class="stat-item reveal-init reveal-fade-up">
+            <div class="stat-icon">
+              <i class="bi bi-folder-check"></i>
+            </div>
+            <div class="stat-number" data-target="4">0+</div>
+            <div class="stat-label">Featured Projects</div>
+          </div>
+        </div>
+
+        <!-- Stat 2 -->
+        <div class="col-lg-3 col-6">
+          <div class="stat-item reveal-init reveal-fade-up delay-100">
+            <div class="stat-icon">
+              <i class="bi bi-buildings"></i>
+            </div>
+            <div class="stat-number" data-target="2">0+</div>
+            <div class="stat-label">Industry Sectors</div>
+          </div>
+        </div>
+
+        <!-- Stat 3 -->
+        <div class="col-lg-3 col-6">
+          <div class="stat-item reveal-init reveal-fade-up delay-200">
+            <div class="stat-icon">
+              <i class="bi bi-patch-check"></i>
+            </div>
+            <div class="stat-number" data-target="3">0+</div>
+            <div class="stat-label">Certifications</div>
+          </div>
+        </div>
+
+        <!-- Stat 4 -->
+        <div class="col-lg-3 col-6">
+          <div class="stat-item reveal-init reveal-fade-up delay-300">
+            <div class="stat-icon">
+              <i class="bi bi-award"></i>
+            </div>
+            <div class="stat-number" data-target="8">0+</div>
+            <div class="stat-label">CGPA Standing</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==========================================================================
+       13. CONTACT SECTION
+       ========================================================================== -->
+  <section id="contact" class="contact-section section-padding">
+    <div class="container">
+      
+      <!-- Section Header -->
+      <div class="text-center">
+        <span class="section-tag">Let's Connect</span>
+        <h2 class="section-title">Start a Conversation</h2>
+        <p class="section-subtitle">
+          Have an inquiry regarding Full Stack web development, UI/UX design, or 3D visualization? Feel free to reach out.
+        </p>
+      </div>
+
+      <div class="row g-5">
+        
+        <!-- Left: Contact Details & Social Channels -->
+        <div class="col-lg-5">
+          <div class="contact-info-card reveal-init reveal-slide-left">
+            <h3 class="mb-4">Contact Information</h3>
+            <p class="text-muted mb-4">
+              Open to discussions regarding full-time roles, web development projects, and 3D design collaborations.
+            </p>
+
+            <!-- Address Item -->
+            <div class="contact-detail-item">
+              <div class="contact-icon-box">
+                <i class="bi bi-geo-alt"></i>
+              </div>
+              <div class="contact-detail-text">
+                <h6>Location</h6>
+                <p>Puducherry, India</p>
+              </div>
+            </div>
+
+            <!-- Phone Item -->
+            <div class="contact-detail-item">
+              <div class="contact-icon-box">
+                <i class="bi bi-telephone"></i>
+              </div>
+              <div class="contact-detail-text">
+                <h6>Phone Number</h6>
+                <p><a href="tel:+919360271358">+91-9360271358</a></p>
+              </div>
+            </div>
+
+            <!-- Email Item -->
+            <div class="contact-detail-item">
+              <div class="contact-icon-box">
+                <i class="bi bi-envelope"></i>
+              </div>
+              <div class="contact-detail-text">
+                <h6>Email Address</h6>
+                <p><a href="mailto:jayaraman4preetha@gmail.com">jayaraman4preetha@gmail.com</a></p>
+              </div>
+            </div>
+
+            <!-- Social Media Buttons -->
+            <div class="pt-2">
+              <h6 class="text-muted text-uppercase fw-bold small mb-3">Connect On Social Profiles</h6>
+              <div class="social-links">
+                <a href="https://www.linkedin.com/in/jayapreetha-jayaraman" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn">
+                  <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="https://github.com/JayapreethaJ" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="mailto:jayaraman4preetha@gmail.com" class="social-btn" aria-label="Email Jayapreetha">
+                  <i class="bi bi-envelope-fill"></i>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Right: Pure JS & EmailJS Form -->
+        <div class="col-lg-7">
+          <div class="contact-form-card reveal-init reveal-slide-right">
+            <h3 class="mb-4">Send a Direct Message</h3>
+
+            <!-- Success Alert Banner -->
+            <div id="formSuccessAlert" class="form-alert-success" role="alert"></div>
+
+            <!-- Error Alert Banner -->
+            <div id="formErrorAlert" class="alert alert-danger" style="display: none;" role="alert"></div>
+
+            <form id="contactForm" novalidate>
+              <div class="row g-3">
+                
+                <!-- Full Name -->
+                <div class="col-md-6 form-group-custom">
+                  <label for="userName" class="form-label-custom">Your Full Name *</label>
+                  <input type="text" class="form-control-custom" id="userName" placeholder="e.g. John Doe" required />
+                  <div class="invalid-feedback-custom">Please enter your name (at least 2 characters).</div>
+                </div>
+
+                <!-- Email Address -->
+                <div class="col-md-6 form-group-custom">
+                  <label for="userEmail" class="form-label-custom">Email Address *</label>
+                  <input type="email" class="form-control-custom" id="userEmail" placeholder="e.g. name@example.com" required />
+                  <div class="invalid-feedback-custom">Please enter a valid email address.</div>
+                </div>
+
+                <!-- Subject -->
+                <div class="col-12 form-group-custom">
+                  <label for="userSubject" class="form-label-custom">Subject *</label>
+                  <input type="text" class="form-control-custom" id="userSubject" placeholder="e.g. Inquiry regarding Full Stack, Web, or 3D Design Projects" required />
+                  <div class="invalid-feedback-custom">Please provide a subject (at least 3 characters).</div>
+                </div>
+
+                <!-- Message -->
+                <div class="col-12 form-group-custom">
+                  <label for="userMessage" class="form-label-custom">Your Message *</label>
+                  <textarea class="form-control-custom" id="userMessage" rows="5" placeholder="Share details about your inquiry, timeline, or project goals..." required></textarea>
+                  <div class="invalid-feedback-custom">Please enter a message of at least 10 characters.</div>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="col-12 mt-4">
+                  <button type="submit" class="btn-custom btn-primary-custom w-100 py-3">
+                    <i class="bi bi-send-fill"></i> Send Message
+                  </button>
+                </div>
+
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       14. FOOTER
+       ========================================================================== -->
+  <footer class="footer-custom">
+    <div class="container">
+      <div class="row g-5 align-items-center justify-content-between">
+        
+        <!-- Brand Summary -->
+        <div class="col-lg-5">
+          <a class="footer-logo text-white text-decoration-none" href="#home">
+            Jayapreetha Jayaraman<span class="text-warning">.</span>
+          </a>
+          <p class="footer-desc">
+            Full Stack Developer and 3D Designer crafting user-focused digital experiences, interactive web applications, and creative 3D visualizations.
+          </p>
+        </div>
+
+        <!-- Quick Navigation -->
+        <div class="col-lg-6">
+          <div class="d-flex flex-wrap gap-4 justify-content-lg-end">
+            <a href="#home" class="text-secondary text-decoration-none hover-white">Home</a>
+            <a href="#about" class="text-secondary text-decoration-none hover-white">About</a>
+            <a href="#resume" class="text-secondary text-decoration-none hover-white">Resume</a>
+            <a href="#skills" class="text-secondary text-decoration-none hover-white">Skills</a>
+            <a href="#projects" class="text-secondary text-decoration-none hover-white">Projects</a>
+            <a href="#services" class="text-secondary text-decoration-none hover-white">Services</a>
+            <a href="#contact" class="text-secondary text-decoration-none hover-white">Contact</a>
+          </div>
+        </div>
+
+      </div>
+
+      <hr class="footer-divider" />
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Jayapreetha Jayaraman. All rights reserved. Built with HTML5, CSS3, JavaScript &amp; Bootstrap 5.
+        </div>
+        <div>
+          Puducherry, India · <a href="mailto:jayaraman4preetha@gmail.com" class="text-secondary">jayaraman4preetha@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button id="back-to-top" type="button" aria-label="Back to top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- ==========================================================================
+       INTERACTIVE PROJECT DETAILS MODAL
+       ========================================================================== -->
+  <div class="modal fade modal-custom" id="projectDetailModal" tabindex="-1" aria-labelledby="modalProjectTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="modalProjectTitle">Project Details</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="project-modal-image">
+            <img id="modalProjectImage" src="images/project1.jpg" alt="Project Showcase" />
+          </div>
+
+          <div class="modal-meta-row">
+            <div class="modal-meta-item">
+              <div class="meta-label">Category</div>
+              <div class="meta-value" id="modalProjectCategory">3D Visualization</div>
+            </div>
+            <div class="modal-meta-item">
+              <div class="meta-label">Project Type</div>
+              <div class="meta-value" id="modalProjectClient">Case Study</div>
+            </div>
+            <div class="modal-meta-item">
+              <div class="meta-label">Date</div>
+              <div class="meta-value" id="modalProjectDuration">October 2026</div>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <h6 class="text-uppercase fw-bold text-muted small">Technologies &amp; Tools Used</h6>
+            <p id="modalProjectTools" class="fw-semibold text-primary">Blender, 3D Modeling, Texturing, Lighting</p>
+          </div>
+
+          <div class="mb-4">
+            <h6 class="text-uppercase fw-bold text-muted small">Project Overview</h6>
+            <p id="modalProjectDesc" class="text-dark">Detailed project description.</p>
+          </div>
+
+          <div class="d-flex justify-content-end gap-2">
+            <button type="button" class="btn-custom btn-outline-custom" data-bs-dismiss="modal">Close</button>
+            <a href="#contact" class="btn-custom btn-primary-custom" data-bs-dismiss="modal">Discuss Opportunities</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Official EmailJS Browser SDK v4 -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <!-- Bootstrap 5.3.3 Bundle with Popper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!-- Main JavaScript File -->
+  <script src="js/script.js" defer></script>
+</body>
+</html>
